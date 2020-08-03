@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+h1 {
+        color:aquamarine;
+}
+
+.adjustButton {
+    padding : 35px;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+}
+
+#resetButton {
+    padding : 25px;
+    color : red;
+    border : 5px solid sandybrown;
+    background-color: skyblue;
+}
+
+#counter {
+    font-size: 50px;;
+}
