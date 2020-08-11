@@ -1,9 +1,32 @@
 body{
     text-align: center;
+    background-image: url('hacker.jpg');
+    background-attachment: fixed;
+    font-family: monospace;
+
+
+}
+a:link
+{
+    background-color: red;
+}
+a:hover{
+	color:red;
+	background-color:aqua;
+	text-decoration:none;
+}
+a:active{
+	color:yellow;
+	background-color:transparent;
+	text-decoration:overline;
 }
 
 h1 {
         color:aquamarine;
+}
+p {
+    font-size: 20px;
+    color:white;
 }
 
 .adjustButton {
@@ -15,9 +38,8 @@ h1 {
 
 #resetButton {
     padding : 25px;
-    color : red;
-    border : 5px solid sandybrown;
-    background-color: skyblue;
+    color : green;
+    background-color:black
 }
 
 #counter {
